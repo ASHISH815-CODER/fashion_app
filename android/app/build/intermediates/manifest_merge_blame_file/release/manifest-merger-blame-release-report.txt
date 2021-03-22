@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shethinkfashion"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:5:5-64
+12-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:6:6-71
+13-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:6:23-69
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:7:3-78
+14-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:7:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:8:3-79
+15-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:8:20-76
+16
+17    <queries>
+17-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-14:15
+18        <intent>
+18-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:9-13:18
+19            <action android:name="android.media.action.IMAGE_CAPTURE" />
+19-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:13-73
+19-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:21-70
+20        </intent>
+21    </queries>
+22
+23    <application
+23-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:10:5-30:19
+24        android:name="com.shethinkfashion.MainApplication"
+24-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:11:7-38
+25        android:allowBackup="false"
+25-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:15:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8ac23c26c7dcc5d486fed317d2b53c3d\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:13:7-41
+28        android:label="@string/app_name"
+28-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:12:7-39
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:14:7-52
+30        android:theme="@style/AppTheme" >
+30-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:16:7-38
+31        <activity
+31-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:17:7-28:18
+32            android:name="com.shethinkfashion.MainActivity"
+32-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:19:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+33-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:21:9-86
+34            android:label="@string/app_name"
+34-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:20:9-41
+35            android:launchMode="singleTask"
+35-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:22:9-40
+36            android:screenOrientation="portrait"
+36-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:18:9-45
+37            android:windowSoftInputMode="adjustResize" >
+37-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:23:9-51
+38            <intent-filter>
+38-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:24:9-27:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:25:13-65
+39-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:25:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:26:13-73
+41-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:26:23-70
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+44-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:29:7-84
+44-->E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:29:17-81
+45
+46        <provider
+46-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-27:20
+47            android:name="androidx.core.content.FileProvider"
+47-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:20:13-62
+48            android:authorities="com.shethinkfashion.provider"
+48-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:21:13-60
+49            android:exported="false"
+49-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:22:13-37
+50            android:grantUriPermissions="true" >
+50-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:23:13-47
+51            <meta-data
+51-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:24:13-26:58
+52                android:name="android.support.FILE_PROVIDER_PATHS"
+52-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:25:17-67
+53                android:resource="@xml/provider_paths" />
+53-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:26:17-55
+54        </provider>
+55
+56        <activity
+56-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-31:72
+57            android:name="com.yalantis.ucrop.UCropActivity"
+57-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-60
+58            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+58-->[:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-69
+59    </application>
+60
+61</manifest>

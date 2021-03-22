@@ -1,0 +1,292 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-community_masked-view] E:\ShethinkFashion\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] E:\ShethinkFashion\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-34:12
+MERGED from [:react-native-safe-area-context] E:\ShethinkFashion\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] E:\ShethinkFashion\node_modules\react-native-screens\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] E:\ShethinkFashion\node_modules\react-native-svg\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] E:\ShethinkFashion\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a5e28e81b1560ef0c3964201108b7a1\jetified-react-native-0.63.4\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\485c47ff6156c1b0914518a63e0f1b8b\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2bd29110ebf71ce1c90dc31633d9a957\jetified-android-jsc-r245459\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] E:\ShethinkFashion\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\bec71785b3808e263090c4398c39f6fd\jetified-ucrop-2.2.6-native\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5ee3369eea1d670e4a510b33b324622\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9e241ade4feea143d6efde1061ddefb1\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e985bc0f78e3f9461a24b55dbc4c9d0c\jetified-fresco-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b706098acfcdb735c5e4b4db306b5f88\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ae0ef8577d6969fccd89b24752864fe1\jetified-drawee-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\76f7846ffbe028fe36e43b85751accea\jetified-nativeimagefilters-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5d11f51b0a87df64e96b115bcd7d23d\jetified-imagepipeline-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\42090a24186b85bb5af9bd81bfeb395e\jetified-nativeimagetranscoder-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\7d8dc3ab392f354b8ee7788f73020872\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5ec2baf88644e5ef949ad62ff9bcaa72\jetified-soloader-0.9.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5702946d77f8d55f2ad9c21e554d2339\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\76b119962b647ba8cce6d5584eb41414\fragment-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\a6ea26ab5be8360a3ec673ed6231842f\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\87d0c49b85e22ccd837439a2ada3629c\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\355ad34104d74667ec850f5d863bf6a4\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2fcf65548dad3afab49272d052f192e9\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\82b4cef4dab83589862c873cf230c3d8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b604a0faa8fb757b3e63e0bf4fb2ff3f\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d8d69adf1a6b3d130b66b11ae8cd24a4\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d8fd54d31e223ccf66279b49cbe0b6c1\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\a91da814ff585c0e8c3a788ce495b65b\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\f963f74c06814642512a0f6cc619237f\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\7a4b3813c751c56b36814991e84748b7\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8ac23c26c7dcc5d486fed317d2b53c3d\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2ae42694ed8b1eb5e6487cc4ca63f786\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\98fc7b17bfb41a754a13c34c7bfe03ad\exifinterface-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b1cd2ffcf4dff9ba243c3dadcab815fd\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\de74f26688ad356f07afe08f5f2e2f25\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\4f5cfc2017e6789ce519435835869ee5\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4ef33b395433d2f08d13ce4609999e5\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\c209b2459c49ba566bd92dc1efcf62ab\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9af25622f64b9906d76ef71ca27ad0cc\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\1237bf9e35cab3ca49a2ee83a8755c28\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\51db53666298bf4dbe1433694f2c598d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ccc44f8482c31e061744b83f33a7470d\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b63786e1ee350d65a0b4084bdf5fcc11\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\34a547374c97c7edeb5764297b66e49a\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+	package
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:2:3-32
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:1-32:12
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:6:6-71
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:6:23-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:7:3-78
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:7:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:8:3-79
+MERGED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-81
+MERGED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:8:20-76
+application
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-32:19
+MERGED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-32:19
+MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a5e28e81b1560ef0c3964201108b7a1\jetified-react-native-0.63.4\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a5e28e81b1560ef0c3964201108b7a1\jetified-react-native-0.63.4\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5ee3369eea1d670e4a510b33b324622\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5ee3369eea1d670e4a510b33b324622\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5ec2baf88644e5ef949ad62ff9bcaa72\jetified-soloader-0.9.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5ec2baf88644e5ef949ad62ff9bcaa72\jetified-soloader-0.9.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8ac23c26c7dcc5d486fed317d2b53c3d\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8ac23c26c7dcc5d486fed317d2b53c3d\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\de74f26688ad356f07afe08f5f2e2f25\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\de74f26688ad356f07afe08f5f2e2f25\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8ac23c26c7dcc5d486fed317d2b53c3d\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:12:7-39
+	android:roundIcon
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:14:7-52
+	android:icon
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:15:7-34
+	android:theme
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:16:7-38
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:11:7-38
+activity#com.shethinkfashion.MainActivity
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:17:7-28:18
+	android:screenOrientation
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:18:9-45
+	android:label
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:20:9-41
+	android:launchMode
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:22:9-40
+	android:windowSoftInputMode
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:23:9-51
+	android:configChanges
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:21:9-86
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:19:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:24:9-27:25
+action#android.intent.action.MAIN
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:25:13-65
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:25:21-62
+category#android.intent.category.LAUNCHER
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:26:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:29:7-84
+	android:name
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml:29:17-81
+uses-sdk
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-community_masked-view] E:\ShethinkFashion\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] E:\ShethinkFashion\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] E:\ShethinkFashion\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] E:\ShethinkFashion\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-safe-area-context] E:\ShethinkFashion\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] E:\ShethinkFashion\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] E:\ShethinkFashion\node_modules\react-native-screens\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] E:\ShethinkFashion\node_modules\react-native-screens\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] E:\ShethinkFashion\node_modules\react-native-svg\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] E:\ShethinkFashion\node_modules\react-native-svg\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] E:\ShethinkFashion\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] E:\ShethinkFashion\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a5e28e81b1560ef0c3964201108b7a1\jetified-react-native-0.63.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a5e28e81b1560ef0c3964201108b7a1\jetified-react-native-0.63.4\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\485c47ff6156c1b0914518a63e0f1b8b\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\485c47ff6156c1b0914518a63e0f1b8b\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2bd29110ebf71ce1c90dc31633d9a957\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2bd29110ebf71ce1c90dc31633d9a957\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] E:\ShethinkFashion\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] E:\ShethinkFashion\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\bec71785b3808e263090c4398c39f6fd\jetified-ucrop-2.2.6-native\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\bec71785b3808e263090c4398c39f6fd\jetified-ucrop-2.2.6-native\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5ee3369eea1d670e4a510b33b324622\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5ee3369eea1d670e4a510b33b324622\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9e241ade4feea143d6efde1061ddefb1\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9e241ade4feea143d6efde1061ddefb1\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e985bc0f78e3f9461a24b55dbc4c9d0c\jetified-fresco-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e985bc0f78e3f9461a24b55dbc4c9d0c\jetified-fresco-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b706098acfcdb735c5e4b4db306b5f88\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b706098acfcdb735c5e4b4db306b5f88\jetified-imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ae0ef8577d6969fccd89b24752864fe1\jetified-drawee-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ae0ef8577d6969fccd89b24752864fe1\jetified-drawee-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\76f7846ffbe028fe36e43b85751accea\jetified-nativeimagefilters-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\76f7846ffbe028fe36e43b85751accea\jetified-nativeimagefilters-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5d11f51b0a87df64e96b115bcd7d23d\jetified-imagepipeline-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b5d11f51b0a87df64e96b115bcd7d23d\jetified-imagepipeline-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\42090a24186b85bb5af9bd81bfeb395e\jetified-nativeimagetranscoder-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\42090a24186b85bb5af9bd81bfeb395e\jetified-nativeimagetranscoder-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\7d8dc3ab392f354b8ee7788f73020872\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\7d8dc3ab392f354b8ee7788f73020872\jetified-imagepipeline-base-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5ec2baf88644e5ef949ad62ff9bcaa72\jetified-soloader-0.9.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5ec2baf88644e5ef949ad62ff9bcaa72\jetified-soloader-0.9.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5702946d77f8d55f2ad9c21e554d2339\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\5702946d77f8d55f2ad9c21e554d2339\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\76b119962b647ba8cce6d5584eb41414\fragment-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\76b119962b647ba8cce6d5584eb41414\fragment-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\a6ea26ab5be8360a3ec673ed6231842f\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\a6ea26ab5be8360a3ec673ed6231842f\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\87d0c49b85e22ccd837439a2ada3629c\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\87d0c49b85e22ccd837439a2ada3629c\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\355ad34104d74667ec850f5d863bf6a4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\355ad34104d74667ec850f5d863bf6a4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2fcf65548dad3afab49272d052f192e9\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2fcf65548dad3afab49272d052f192e9\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\82b4cef4dab83589862c873cf230c3d8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\82b4cef4dab83589862c873cf230c3d8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b604a0faa8fb757b3e63e0bf4fb2ff3f\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b604a0faa8fb757b3e63e0bf4fb2ff3f\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d8d69adf1a6b3d130b66b11ae8cd24a4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d8d69adf1a6b3d130b66b11ae8cd24a4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d8fd54d31e223ccf66279b49cbe0b6c1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d8fd54d31e223ccf66279b49cbe0b6c1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\a91da814ff585c0e8c3a788ce495b65b\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\a91da814ff585c0e8c3a788ce495b65b\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\f963f74c06814642512a0f6cc619237f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\f963f74c06814642512a0f6cc619237f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\7a4b3813c751c56b36814991e84748b7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\7a4b3813c751c56b36814991e84748b7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8ac23c26c7dcc5d486fed317d2b53c3d\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8ac23c26c7dcc5d486fed317d2b53c3d\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2ae42694ed8b1eb5e6487cc4ca63f786\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\2ae42694ed8b1eb5e6487cc4ca63f786\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\98fc7b17bfb41a754a13c34c7bfe03ad\exifinterface-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\98fc7b17bfb41a754a13c34c7bfe03ad\exifinterface-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b1cd2ffcf4dff9ba243c3dadcab815fd\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b1cd2ffcf4dff9ba243c3dadcab815fd\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\de74f26688ad356f07afe08f5f2e2f25\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\de74f26688ad356f07afe08f5f2e2f25\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\4f5cfc2017e6789ce519435835869ee5\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\4f5cfc2017e6789ce519435835869ee5\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4ef33b395433d2f08d13ce4609999e5\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4ef33b395433d2f08d13ce4609999e5\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\c209b2459c49ba566bd92dc1efcf62ab\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\c209b2459c49ba566bd92dc1efcf62ab\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9af25622f64b9906d76ef71ca27ad0cc\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9af25622f64b9906d76ef71ca27ad0cc\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\1237bf9e35cab3ca49a2ee83a8755c28\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\1237bf9e35cab3ca49a2ee83a8755c28\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\51db53666298bf4dbe1433694f2c598d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\51db53666298bf4dbe1433694f2c598d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ccc44f8482c31e061744b83f33a7470d\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\ccc44f8482c31e061744b83f33a7470d\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b63786e1ee350d65a0b4084bdf5fcc11\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b63786e1ee350d65a0b4084bdf5fcc11\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\34a547374c97c7edeb5764297b66e49a\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\34a547374c97c7edeb5764297b66e49a\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\ShethinkFashion\android\app\src\main\AndroidManifest.xml
+queries
+ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:5-14:15
+intent
+ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:9-13:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:13-73
+	android:name
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:21-70
+provider#androidx.core.content.FileProvider
+ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-27:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:23:13-47
+	android:authorities
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:21:13-60
+	android:exported
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:20:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:24:13-26:58
+	android:resource
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:26:17-55
+	android:name
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:25:17-67
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-31:72
+	android:theme
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-69
+	android:name
+		ADDED from [:react-native-image-crop-picker] E:\ShethinkFashion\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-60

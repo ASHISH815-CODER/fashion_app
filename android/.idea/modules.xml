@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShethinkFashion.iml" filepath="$PROJECT_DIR$/.idea/modules/ShethinkFashion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShethinkFashion.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShethinkFashion.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2058334023/ShethinkFashion.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/2058334023/ShethinkFashion.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2071877776/ShethinkFashion.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-2071877776/ShethinkFashion.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1451926654/ShethinkFashion.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1451926654/ShethinkFashion.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1853316135/ShethinkFashion.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1853316135/ShethinkFashion.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-489861327/ShethinkFashion.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-489861327/ShethinkFashion.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-113588210/ShethinkFashion.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-113588210/ShethinkFashion.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/944449126/ShethinkFashion.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/944449126/ShethinkFashion.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+com/shethinkfashion/BuildConfig.java
+ com.shethinkfashion.BuildConfig
+com/shethinkfashion/MainActivity.java
+ com.shethinkfashion.MainActivity
+com/shethinkfashion/MainApplication.java
+ com.shethinkfashion.MainApplication
+ com.shethinkfashion.MainApplication$1
+com/shethinkfashion/ReactNativeFlipper.java
+ com.shethinkfashion.ReactNativeFlipper
+ com.shethinkfashion.ReactNativeFlipper$1
+ com.shethinkfashion.ReactNativeFlipper$2
+ com.shethinkfashion.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
