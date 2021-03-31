@@ -10,6 +10,7 @@ import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 import RangeSlider from 'rn-range-slider';
 import { Radio } from 'native-base';
 import Slider from "react-native-slider";
+import { Header } from '../../Component/Header';
 
 
 
@@ -34,7 +35,26 @@ export function UploadingProfilePhoto({ navigation }) {
         <View style={styles.container}>
 
 
-            <View style={styles.ImageContainer}>
+            <View >
+                <Header
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Profile Photos</Text>
+                    }
+                    ImageComponent={
+                        <Image style={styles.ProfileStyle}
+                            source={require('../../Assets/Images/ProfileImage/Profile.png')}>
+                        </Image>
+                    }
+
+                />
+
+            </View>
+
+
+            {/* <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Entypo name="cross" size={35} color="#000000"
                         style={styles.ProfileImageStyle}>
@@ -48,7 +68,7 @@ export function UploadingProfilePhoto({ navigation }) {
                         </Image>
                     </TouchableOpacity>
                 </View>
-            </View>
+            </View> */}
 
 
 
@@ -179,7 +199,8 @@ export function UploadingProfilePhoto({ navigation }) {
                         height: SCREEN_HEIGHT * 0.07,
                         justifyContent: "center",
                         alignItems: "center",
-                        borderRadius: 5
+                        borderRadius: 5,
+                        elevation: 10,
                     }}
                     buttonTitle="Continue" />
             </ScrollView>
@@ -227,6 +248,14 @@ const styles = StyleSheet.create({
         fontSize: 16,
         // fontWeight: '400',
         marginLeft: SCREEN_WIDTH * 0.01
+    },
+    ProfileStyle: {
+        width: SCREEN_WIDTH * 0.09,
+        height: SCREEN_HEIGHT * 0.045,
+        borderRadius: 6,
+        marginLeft: SCREEN_WIDTH * 0.5
+
+
     },
     item: {
         marginHorizontal: 3,
@@ -357,7 +386,8 @@ const styles = StyleSheet.create({
     ProfileImage: {
         width: SCREEN_WIDTH * 0.3,
         height: SCREEN_HEIGHT * 0.16,
-        borderRadius: 6
+        borderRadius: 6,
+        elevation: 10
         // marginLeft: SCREEN_WIDTH * 0.025,
         // marginVertical: SCREEN_HEIGHT * 0.02,
 

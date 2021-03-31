@@ -104,7 +104,7 @@ export const ChatFriendList = () => {
                 source={img} />
             <View style={{
                 height: SCREEN_HEIGHT * 0.015, width: SCREEN_WIDTH * 0.03, borderRadius: 20, backgroundColor: '#4CAF50',
-                position: 'absolute', left: SCREEN_WIDTH * 0.1
+                position: 'absolute', left: SCREEN_WIDTH * 0.1,borderWidth:2,borderColor:'#fff'
             }}></View>
         </TouchableOpacity>
     );
@@ -121,7 +121,7 @@ export const ChatFriendList = () => {
                 source={img} />
             <View style={{
                 height: SCREEN_HEIGHT * 0.015, width: SCREEN_WIDTH * 0.03, borderRadius: 20, backgroundColor: '#4CAF50',
-                position: 'absolute', left: SCREEN_WIDTH * 0.12, marginTop: SCREEN_WIDTH * 0.03,
+                position: 'absolute', left: SCREEN_WIDTH * 0.12, marginTop: SCREEN_WIDTH * 0.03,borderWidth:2,borderColor:'#fff'
             }}></View>
             <View style={styles.TitleSizeContainer}>
                 <Text style={styles.TitleStyle}>{title}</Text>

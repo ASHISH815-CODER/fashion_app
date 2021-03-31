@@ -1,4 +1,5 @@
 import * as React from 'react';
+// import './'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Splash } from './src/Screens/Splash/index';
@@ -26,13 +27,24 @@ import { UploadingProfilePhoto } from './src/Screens/UploadingProfilePhoto';
 import { FriendListScreen } from './src/Screens/FriendListScreen';
 import { ChatScreen } from './src/Screens/ChatScreen';
 import { UserWallScreen } from './src/Screens/UserWallScreen';
+import { SearchFeedScreen } from './src/Screens/SearchFeedScreen';
+import FriendRequestScreen from './src/Screens/FriendRequestScreen';
+import ChatSettingScreen from './src/Screens/ChatSettingScreen';
+import ChatSettingBlockScreen from './src/Screens/ChatSettingBlockScreen';
+import SearchPeopleScreen from './src/Screens/SearchPeopleScreen';
+import UsersCommentScreen from './src/Screens/UsersCommentScreen';
+import NotificationScreen from './src/Screens/NotificationScreen';
+import { UserWallCommentsScreen } from './src/Screens/UserWallCommentsScreen';
+import CommonNotificationScreen from './src/Screens/CommonNotificationScreen';
+import NewFriendScreen from './src/Screens/NewFriendScreen';
+import { navigationRef } from './RootNavigation.js';
 
 enableScreens()
 const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <NavigationContainer ref={navigationRef}>
       <Stack.Navigator>
         {/* Splash Screen */}
         <Stack.Screen name="Splash" component={Splash} options={{ headerShown: false }} />
@@ -82,6 +94,26 @@ export default function App() {
         <Stack.Screen name="ChatScreen" component={ChatScreen} options={{ headerShown: false }} />
         {/*UserWall Screen*/}
         <Stack.Screen name="UserWallScreen" component={UserWallScreen} options={{ headerShown: false }} />
+        {/*SearchFeed Screen*/}
+        <Stack.Screen name="SearchFeedScreen" component={SearchFeedScreen} options={{ headerShown: false }} />
+        {/* NotificationScreen Screen*/}
+        <Stack.Screen name="NotificationScreen" component={NotificationScreen} options={{ headerShown: false }} />
+        {/* FriendRequestScreen Screen*/}
+        <Stack.Screen name="FriendRequestScreen" component={FriendRequestScreen} options={{ headerShown: false }} />
+        {/* ChatSettingScreen Screen*/}
+        <Stack.Screen name="ChatSettingScreen" component={ChatSettingScreen} options={{ headerShown: false }} />
+        {/* ChatSettingBlockScreen Screen*/}
+        <Stack.Screen name="ChatSettingBlockScreen" component={ChatSettingBlockScreen} options={{ headerShown: false }} />
+        {/* SearchPeopleScreen Screen*/}
+        <Stack.Screen name="SearchPeopleScreen" component={SearchPeopleScreen} options={{ headerShown: false }} />
+        {/* UsersCommentScreen Screen*/}
+        <Stack.Screen name="UsersCommentScreen" component={UsersCommentScreen} options={{ headerShown: false }} />
+        {/* UserWallComments Screen */}
+        <Stack.Screen name="UserWallCommentsScreen" component={UserWallCommentsScreen} options={{ headerShown: false }} />
+        {/*  CommonNotification Screen */}
+        <Stack.Screen name="CommonNotificationScreen" component={CommonNotificationScreen} options={{ headerShown: false }} />
+        {/* NewFriend Screen */}
+        <Stack.Screen name="NewFriendScreen" component={NewFriendScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   )

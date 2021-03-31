@@ -8,6 +8,10 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_videoimage_videoimage.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_videoimage_videoimage.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_likeimages5_likeimage.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_likeimages5_likeimage.png"
     },
@@ -16,12 +20,20 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnativecalendars_src_calendar_img_next.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchimag_searchimag.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchimag_searchimag.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_pemplum_pemplum.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_pemplum_pemplum.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_request_request.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_request_request.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
@@ -60,8 +72,20 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-hdpi\\node_modules_reactnativecalendars_src_calendar_img_previous.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchtwo_searchtwo.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchtwo_searchtwo.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_feather.json"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_comment_comment.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_comment_comment.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchimages_searchimages.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchimages_searchimages.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_tickmark_group.png.flat",
@@ -72,8 +96,16 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_birthdaycalender_birthdaycalender.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchpeoplesecond_searchsecond.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchpeoplesecond_searchsecond.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_hangerlogo_vector.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_hangerlogo_vector.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_cross_cross.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_cross_cross.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_app.json.flat",
@@ -88,12 +120,28 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_camitop_camitop.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_cross_cross.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_cross_cross.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_searchpeople_searchpeople.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_searchpeople_searchpeople.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_searchpeople_searchpeople.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_searchpeople_searchpeople.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_cameraimage_camera.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_cameraimage_camera.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchpeoplefirst_searchpeoplefirst.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchpeoplefirst_searchpeoplefirst.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_phoneimage_phone.png.flat",
@@ -108,12 +156,24 @@
         "source": "E:\\ShethinkFashion\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_searchpeoplethird_searchpeoplethird.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_searchpeoplethird_searchpeoplethird.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchpeoplethird_searchpeoplethird.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchpeoplethird_searchpeoplethird.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_foundation.json"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_searchpeoplefirst_searchpeoplefirst.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_searchpeoplefirst_searchpeoplefirst.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_tunictop_tunictop.png.flat",
@@ -140,6 +200,10 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_demoimage_demoiamge.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_demoimage_demoiamge.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
     },
@@ -152,8 +216,24 @@
         "source": "E:\\ShethinkFashion\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_circleconfirm_circleconfirm.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_circleconfirm_circleconfirm.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_notificationsetting_notificationsetting.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_notificationsetting_notificationsetting.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_imagelike_like.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_imagelike_like.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchone_searchone.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchone_searchone.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_dist_src_basic_icon_nbicons.json.flat",
@@ -168,12 +248,20 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_hangerlogo_vector.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_demoimage_demoiamge.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_demoimage_demoiamge.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_profiletypeimage_profiletype.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_profiletypeimage_profiletype.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_dist_src_basic_icon_selection.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_dist_src_basic_icon_selection.json"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_request_request.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_request_request.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -190,6 +278,10 @@
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_introscreen_introscreen.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_introscreen_introscreen.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_circleconfirm_circleconfirm.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_circleconfirm_circleconfirm.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_friendsimage_friend3.png.flat",
@@ -224,24 +316,44 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_genderimage_gender.png"
     },
     {
-        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_longlinetop_longlinetop.png.flat",
-        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_longlinetop_longlinetop.png"
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_comment_comment.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_comment_comment.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_crossimage_crossimage.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_crossimage_crossimage.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
     },
     {
-        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
-        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_longlinetop_longlinetop.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_longlinetop_longlinetop.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_notificationsetting_notificationsetting.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_notificationsetting_notificationsetting.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_videoimage_videoimage.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_videoimage_videoimage.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_comment_comment.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_comment_comment.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
@@ -252,12 +364,20 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnativecalendars_src_calendar_img_next.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_searchpeoplethird_searchpeoplethird.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_searchpeoplethird_searchpeoplethird.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnativecalendars_src_img_up.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_flag_flag.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_flag_flag.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_croptopimage_croptop.png.flat",
@@ -268,20 +388,64 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_flag_flag.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_flag_flag.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_send_send.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_send_send.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_request_request.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_request_request.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_demoimage_demoiamge.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_demoimage_demoiamge.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searching_searching.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searching_searching.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_flag_flag.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_flag_flag.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_crossimage_crossimage.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_crossimage_crossimage.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_send_send.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_send_send.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnativecalendars_src_calendar_img_previous.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_googleimage_googleimage.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_googleimage_googleimage.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_backimage_backimage.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_backimage_backimage.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_circleconfirm_circleconfirm.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_circleconfirm_circleconfirm.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_send_send.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_send_send.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_likeimages2_likeimages.png.flat",
@@ -296,8 +460,20 @@
         "source": "E:\\ShethinkFashion\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchi_searchi.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchi_searchi.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_searchpeoplesecond_searchsecond.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_searchpeoplesecond_searchsecond.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_cross_cross.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_cross_cross.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
@@ -320,12 +496,12 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_nextbutton_nextbutton.png"
     },
     {
-        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
-        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
-    },
-    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-hdpi\\node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
@@ -356,6 +532,10 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_tubetop_tubetop.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_src_assets_images_videoimage_videoimage.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\src_assets_images_videoimage_videoimage.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\node_modules_reactnativecalendars_src_calendar_img_next.png"
     },
@@ -368,12 +548,24 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnativecalendars_src_img_up.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_imagelike_like.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_imagelike_like.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_crossimage_crossimage.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_crossimage_crossimage.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_searchpeople_searchpeople.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_searchpeople_searchpeople.png"
     },
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_nativebase_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
@@ -396,6 +588,10 @@
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_introscreen3_intr.png"
     },
     {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_src_assets_images_searchpeoplesecond_searchsecond.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\src_assets_images_searchpeoplesecond_searchsecond.png"
+    },
+    {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnativecalendars_src_img_down.png"
     },
@@ -406,5 +602,9 @@
     {
         "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_clothsimage_cloths.png.flat",
         "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_clothsimage_cloths.png"
+    },
+    {
+        "merged": "E:\\ShethinkFashion\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_notificationsetting_notificationsetting.png.flat",
+        "source": "E:\\ShethinkFashion\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\src_assets_images_notificationsetting_notificationsetting.png"
     }
 ]

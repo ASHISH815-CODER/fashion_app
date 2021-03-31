@@ -2,13 +2,14 @@
 import * as React from 'react';
 import { useRef, useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, FlatList, SafeAreaView, ScrollView, } from "react-native"
-import Icon from 'react-native-vector-icons/AntDesign';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons'
 // import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import { CustomTextInput } from '../../Component/CutomTextInput';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 import Carousel, { Pagination } from 'react-native-snap-carousel';
+import { Header } from '../../Component/Header';
 
 
 const ENTRIES1 = [
@@ -139,16 +140,25 @@ export function FeedScreen({ navigation }) {
 
     return (
         <View style={styles.container}>
-
-            <View style={styles.ImageContainer}>
-                <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Image style={styles.Imagestyle}
-                        source={require('../../Assets/Images/BackImage/BackImage.png')}>
-                    </Image>
-                </TouchableOpacity>
-                <Text style={styles.BackTextStyle}>Back</Text>
+            <View >
+                <Header
+                    onIconPress={() => navigate('SearchScreen')}
+                    currentObject = {navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Back</Text>
+                    }
+                    IconComponent={
+                        <Icon
+                            // style={styles.SearchContainer}
+                            name="search" color="#000000" size={18}
+                        />
+                    }
+                />
 
             </View>
+
             <ScrollView>
 
                 <View style={styles.carausalStyle}>
@@ -169,7 +179,7 @@ export function FeedScreen({ navigation }) {
                     <SimpleLineIcons onpress={goBackward}
                         style={{
                             position: 'absolute',
-                            marginLeft: SCREEN_HEIGHT * 0.03,
+                            marginLeft: SCREEN_HEIGHT * 0.01,
                             marginTop: SCREEN_HEIGHT * 0.25,
                             borderWidth: 1,
                             borderRadius: 50,
@@ -182,7 +192,7 @@ export function FeedScreen({ navigation }) {
                     <SimpleLineIcons onPress={goForward}
                         style={{
                             position: 'absolute',
-                            marginLeft: SCREEN_HEIGHT * 0.48,
+                            marginLeft: SCREEN_HEIGHT * 0.455,
                             marginTop: SCREEN_HEIGHT * 0.25,
                             borderWidth: 1,
                             borderRadius: 50,
@@ -222,7 +232,10 @@ export function FeedScreen({ navigation }) {
                 <View style={styles.ContentContainer}>
                     <Text style={styles.BlouseStyle}>Blouse</Text>
                     <View style={styles.ContentImages}>
-                        <TouchableOpacity style={styles.ContentUserImage}>
+                        <TouchableOpacity
+
+
+                            style={styles.ContentUserImage}>
                             <Icon name="user" color="#FF2B8A" size={28}></Icon>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.ContentLikeImage}>
@@ -356,23 +369,23 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-start'
     },
     ContentImages: {
-        marginLeft: SCREEN_WIDTH * 0.45,
+        marginLeft: SCREEN_WIDTH * 0.5,
         flexDirection: 'row',
     },
     ContentUserImage: {
         // marginLeft:SCREEN_WIDTH*0.04,
-        width: SCREEN_WIDTH * 0.072,
-        height: SCREEN_HEIGHT * 0.033
+        // width: SCREEN_WIDTH * 0.072,
+        // height: SCREEN_HEIGHT * 0.033
     },
     ContentLikeImage: {
-        marginLeft: SCREEN_WIDTH * 0.05,
-        width: SCREEN_WIDTH * 0.072,
-        height: SCREEN_HEIGHT * 0.035
+        marginLeft: SCREEN_WIDTH * 0.03,
+        // width: SCREEN_WIDTH * 0.072,
+        // height: SCREEN_HEIGHT * 0.035
     },
     ContentShareImage: {
-        marginLeft: SCREEN_WIDTH * 0.05,
-        width: SCREEN_WIDTH * 0.074,
-        height: SCREEN_HEIGHT * 0.038
+        marginLeft: SCREEN_WIDTH * 0.03,
+        // width: SCREEN_WIDTH * 0.074,
+        // height: SCREEN_HEIGHT * 0.038
     },
     BrandContainer: {
         fontFamily: 'montserrat_medium',
@@ -400,9 +413,9 @@ const styles = StyleSheet.create({
         marginTop: SCREEN_HEIGHT * 0.01
     },
     ColorImageContainer: {
-        marginLeft: SCREEN_WIDTH * 0.02,
-        width: SCREEN_WIDTH * 0.1,
-        height: SCREEN_HEIGHT * 0.08
+        marginLeft: SCREEN_WIDTH * 0.01,
+        // width: SCREEN_WIDTH * 0.1,
+        // height: SCREEN_HEIGHT * 0.08
     },
     SizeContainer: {
         fontFamily: 'montserrat_medium',
@@ -412,9 +425,9 @@ const styles = StyleSheet.create({
         marginLeft: SCREEN_WIDTH * 0.1
     },
     SizeImageContainer: {
-        marginLeft: SCREEN_WIDTH * 0.02,
-        width: SCREEN_WIDTH * 0.1,
-        height: SCREEN_HEIGHT * 0.08
+        marginLeft: SCREEN_WIDTH * 0.01,
+        // width: SCREEN_WIDTH * 0.1,
+        // height: SCREEN_HEIGHT * 0.08
     },
     WearContainer: {
         fontFamily: 'montserrat_medium',

@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, FlatL
 // import { Icon } from 'react-native-vector-icons/icon';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { CustomTextInput } from '../../Component/CutomTextInput';
+import { Header } from '../../Component/Header';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 
@@ -29,18 +30,17 @@ export function ProfileScreen({ navigation }) {
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
-                <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Image style={styles.Imagestyle}
-                        source={require('../../Assets/Images/BackImage/BackImage.png')}>
-                    </Image>
-                </TouchableOpacity>
-                <Text style={styles.BackTextStyle}>Back</Text>
-                <TouchableOpacity onPress={() => navigation.navigate('SearchScreen')}>
-                    <Icon onSubmitPress={() => navigation.navigate('SearchScreen')}
-                        style={styles.SearchContainer}
-                        name="search" color="#000000" size={18} />
-                </TouchableOpacity>
+            <View >
+                <Header
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Profile</Text>
+                    }
+
+                />
+
             </View>
 
             <View style={styles.ProfileContainer}>

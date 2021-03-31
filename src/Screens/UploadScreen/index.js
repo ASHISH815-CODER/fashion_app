@@ -9,6 +9,8 @@ import { CustomTextInput } from '../../Component/CutomTextInput';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 import ImagePicker from 'react-native-image-crop-picker';
+import { Header } from '../../Component/Header';
+import { navigate } from '../../../RootNavigation';
 // import { useState } from 'react/cjs/react.development';
 
 export function UploadScreen({ navigation }) {
@@ -32,7 +34,26 @@ export function UploadScreen({ navigation }) {
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
+            <View >
+                <Header
+                    onIconPress={() => navigate('CommonNotificationScreen')}
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>New Post</Text>
+                    }
+                    IconComponent={
+                        <Icon
+                            // style={styles.SearchContainer}
+                            name="arrowright" color="#000000" size={18}
+                        />
+                    }
+                />
+
+            </View>
+
+            {/* <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Image style={styles.Imagestyle}
                         source={require('../../Assets/Images/BackImage/BackImage.png')}>
@@ -40,11 +61,11 @@ export function UploadScreen({ navigation }) {
                 </TouchableOpacity>
                 <Text style={styles.BackTextStyle}>New Post</Text>
                 <View style={styles.IconStyle}>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => navigation.navigate("CommonNotificationScreen")}>
                         <Icon name="arrowright" size={25} color="#383838"></Icon>
                     </TouchableOpacity>
                 </View>
-            </View>
+            </View> */}
 
             <View style={{ backgroundColor: '#F6F6F6', height: SCREEN_HEIGHT * 0.68 }}>
                 <View style={styles.UploadContainer}>
@@ -71,6 +92,7 @@ export function UploadScreen({ navigation }) {
                                 justifyContent: "center",
                                 alignItems: "center",
                                 borderRadius: 5,
+                                elevation: 10,
                             }}
                             buttonTitle="Continue" />
                     </View>

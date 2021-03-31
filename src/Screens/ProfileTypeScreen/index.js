@@ -7,6 +7,7 @@ import { CustomTextInput } from '../../Component/CutomTextInput';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 import { Radio } from 'native-base';
+import { Header } from '../../Component/Header';
 // import { useState } from 'react/cjs/react.development';
 
 
@@ -18,14 +19,17 @@ export function ProfileTypeScreen({ navigation }) {
 
     return (
         <View style={styles.container}>
+   <View >
+                <Header
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Profile Type</Text>
+                    }
 
-            <View style={styles.ImageContainer}>
-                <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Image style={styles.Imagestyle}
-                        source={require('../../Assets/Images/BackImage/BackImage.png')}>
-                    </Image>
-                </TouchableOpacity>
-                <Text style={styles.BackTextStyle}>Profile Type</Text>
+                />
+
             </View>
             <View style={styles.RadioContainer}>
                 <View style={styles.PrivateContainer}>
@@ -50,8 +54,8 @@ export function ProfileTypeScreen({ navigation }) {
                         height: SCREEN_HEIGHT * 0.07,
                         justifyContent: "center",
                         alignItems: "center",
-                        borderRadius:5
-
+                        borderRadius:5,
+                        elevation: 10,
                     }}
                     buttonTitle="Save" />
             </View>

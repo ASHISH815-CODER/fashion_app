@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, FlatL
 // import { Icon } from 'react-native-vector-icons/icon';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { CustomTextInput } from '../../Component/CutomTextInput';
+import { Header } from '../../Component/Header';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 
@@ -11,14 +12,17 @@ export function PhoneScreen({ navigation }) {
 
     return (
         <View style={styles.container}>
+   <View >
+                <Header
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Phone Number</Text>
+                    }
 
-            <View style={styles.ImageContainer}>
-            <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Image style={styles.Imagestyle}
-                        source={require('../../Assets/Images/BackImage/BackImage.png')}>
-                    </Image>
-                </TouchableOpacity>
-                <Text style={styles.BackTextStyle}>Phone Number</Text>
+                />
+
             </View>
 
             <View style={styles.EmailContainer}>
@@ -47,8 +51,8 @@ export function PhoneScreen({ navigation }) {
                         height: SCREEN_HEIGHT * 0.07,
                         justifyContent: "center",
                         alignItems: "center",
-                        borderRadius:5
-
+                        borderRadius:5,
+                        elevation: 10,
                     }}
                     buttonTitle="Save" />
             </View>

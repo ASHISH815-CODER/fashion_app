@@ -7,19 +7,24 @@ import { CustomTextInput } from '../../Component/CutomTextInput';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
+import { Header } from '../../Component/Header';
 
 export function BirthdayScreen({ navigation }) {
 
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
-                <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Image style={styles.Imagestyle}
-                        source={require('../../Assets/Images/BackImage/BackImage.png')}>
-                    </Image>
-                </TouchableOpacity>
-                <Text style={styles.BackTextStyle}>Birthday</Text>
+            <View >
+                <Header
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Birthday</Text>
+                    }
+
+                />
+
             </View>
             <View style={styles.CalendarContainer}>
                 <Text style={styles.CalendarTextContainer}>Your Birthday</Text>
@@ -94,16 +99,17 @@ export function BirthdayScreen({ navigation }) {
             <View style={{ position: "absolute", alignSelf: 'center', bottom: 20 }}>
                 <LoginButton
                     // onSubmitPress={() => navigation.navigate('TabNavigationScreen')}
-                    ButtonTextStyle={{ color: "#fff", fontSize: 16,         fontFamily:'montserrat_bold',
-                }}
+                    ButtonTextStyle={{
+                        color: "#fff", fontSize: 16, fontFamily: 'montserrat_bold',
+                    }}
                     ButtonStyle={{
                         backgroundColor: "#FF2B8A",
                         width: SCREEN_WIDTH * 0.9,
                         height: SCREEN_HEIGHT * 0.07,
                         justifyContent: "center",
                         alignItems: "center",
-                        borderRadius:5
-
+                        borderRadius: 5,
+                        elevation: 10,
                     }}
                     buttonTitle="Save" />
             </View>
@@ -134,7 +140,7 @@ const styles = StyleSheet.create({
     },
 
     BackTextStyle: {
-        fontFamily:'montserrat_medium',
+        fontFamily: 'montserrat_medium',
         // marginTop: SCREEN_HEIGHT * 0.007,
         fontSize: 16,
         // fontWeight: '400',
@@ -148,7 +154,7 @@ const styles = StyleSheet.create({
 
     },
     CalendarTextContainer: {
-        fontFamily:'montserrat_bold',
+        fontFamily: 'montserrat_bold',
         fontSize: 16,
         // fontWeight: 'bold',
     },

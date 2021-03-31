@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, FlatL
 // import { Icon } from 'react-native-vector-icons/icon';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { CustomTextInput } from '../../Component/CutomTextInput';
+import { Header } from '../../Component/Header';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 
@@ -83,7 +84,24 @@ export function LikeScreen({ navigation }) {
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
+
+            <View >
+                <Header
+                    onIconPress={() => navigate('SearchScreen')}
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Back</Text>
+                    }
+                    TextComponent={
+                        <Text style={{ fontFamily: 'montserrat_medium',left:SCREEN_WIDTH*0.4 }}>Likes</Text>
+                    }
+                />
+
+            </View>
+
+            {/* <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Image style={styles.Imagestyle}
                         source={require('../../Assets/Images/BackImage/BackImage.png')}>
@@ -95,7 +113,7 @@ export function LikeScreen({ navigation }) {
                         <Text style={styles.LikeTextStyle}>Likes</Text>
                     </TouchableOpacity>
                 </View>
-            </View>
+            </View> */}
             <ScrollView>
                 <SafeAreaView style={styles.Flatlistcontainer}>
                     <FlatList
@@ -121,7 +139,7 @@ const styles = StyleSheet.create({
         padding: 10
     },
     BackTextStyle: {
-        fontFamily:'montserrat_medium',
+        fontFamily: 'montserrat_medium',
         marginTop: SCREEN_HEIGHT * 0.007,
         fontSize: 16,
         // fontWeight: '400',
@@ -129,7 +147,7 @@ const styles = StyleSheet.create({
 
     },
     LikeTextStyle: {
-        fontFamily:'montserrat_medium',
+        fontFamily: 'montserrat_medium',
         marginTop: SCREEN_HEIGHT * 0.007,
         fontSize: 16,
         // fontWeight: '400',
@@ -142,8 +160,8 @@ const styles = StyleSheet.create({
     },
 
     Flatliststyle: {
-        borderBottomWidth:1,
-        borderBottomColor:'#d3d3d3',
+        borderBottomWidth: 1,
+        borderBottomColor: '#d3d3d3',
         flexDirection: 'row',
         justifyContent: 'space-evenly',
         // flex : 1,
@@ -151,7 +169,7 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         width: SCREEN_WIDTH * 0.95,
         marginVertical: 10,
-        paddingBottom:20
+        paddingBottom: 20
 
     },
     FlatlistImagecontainer: {
@@ -171,18 +189,18 @@ const styles = StyleSheet.create({
         // paddingLeft: SCREEN_WIDTH * 0.02
     },
     SizeStyle: {
-        fontFamily:'montserrat_medium',
+        fontFamily: 'montserrat_medium',
         color: '#C4C4C4'
     },
     TitleStyle: {
-        fontFamily:'montserrat_medium',
+        fontFamily: 'montserrat_medium',
         fontSize: 19,
         fontWeight: '500'
     },
     FollowButtonStyle: {
         // marginLeft: SCREEN_WIDTH * 0.2,
         // alignContent:'center',
-        fontFamily:'montserrat_bold',
+        fontFamily: 'montserrat_bold',
         borderWidth: 1,
         paddingHorizontal: SCREEN_WIDTH * 0.05,
         paddingVertical: SCREEN_HEIGHT * 0.005,
@@ -193,8 +211,8 @@ const styles = StyleSheet.create({
         borderColor: '#FF2B8A',
         borderRadius: 5,
         marginTop: SCREEN_HEIGHT * 0.03,
-        shadowColor:'#FF2B8A',
-        
+        shadowColor: '#FF2B8A',
+        elevation: 10,
         // alignSelf : 'flex-end'
 
         // position: 'absolute'

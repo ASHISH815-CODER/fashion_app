@@ -78,8 +78,8 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     Imagestyle: {
-        width: SCREEN_WIDTH * 0.35,
-        height: SCREEN_HEIGHT * 0.13,
+        // width: SCREEN_WIDTH * 0.35,
+        // height: SCREEN_HEIGHT * 0.13,
         alignSelf: 'center',
         marginTop: SCREEN_HEIGHT * 0.06
 

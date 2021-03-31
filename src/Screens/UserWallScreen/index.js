@@ -9,6 +9,9 @@ import { CustomTextInput } from '../../Component/CutomTextInput';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 import ImagePicker from 'react-native-image-crop-picker';
+import { Header } from '../../Component/Header';
+import { navigate, navigationRef } from '../../../RootNavigation';
+import { UserWallComponent } from '../../Component/UserWallComponent';
 
 
 
@@ -130,7 +133,7 @@ export function UserWallScreen({ navigation }) {
 
     const Item = ({ title, size, img }) => (
 
-        <TouchableOpacity
+        <TouchableOpacity onPress={() => navigation.navigate('UserWallCommentsScreen')}
             //  onPress={() => navigation.navigate('FeedScreen')}
             style={styles.item}>
 
@@ -163,6 +166,34 @@ export function UserWallScreen({ navigation }) {
     return (
         <View style={styles.container}>
 
+            <View >
+                <UserWallComponent
+                    onIconPress={() => UploadClothing()}
+                    onImagepress={()=>navigate('NotificationScreen')}
+                    // currentObject={navigation}
+                    IconComponent={
+                        <Feather style={{}}
+
+                            name="camera" color="#000000" size={25} />
+                    }
+                    TextComponent={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                            marginTop: SCREEN_HEIGHT * 0.03,
+                            left: SCREEN_WIDTH * 0.02
+                        }}>Elle Fanning</Text>
+                    }
+                    ImageComponent={
+                        <Image style={styles.ProfileStyle}
+                            source={require('../../Assets/Images/ProfileImage/Profile.png')}>
+                        </Image>
+                    }
+
+                />
+
+            </View>
+
+            {/* 
             <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => UploadClothing()}>
                     <Feather style={{}}
@@ -172,12 +203,12 @@ export function UserWallScreen({ navigation }) {
 
                 <Text style={styles.ElleStyle}>Elle Fanning</Text>
 
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate('NotificationScreen')}>
                     <Image style={styles.ProfileStyle}
                         source={require('../../Assets/Images/ProfileImage/Profile.png')}>
                     </Image>
                 </TouchableOpacity>
-            </View>
+            </View> */}
 
 
             <ScrollView>
@@ -240,7 +271,8 @@ const styles = StyleSheet.create({
     ProfileStyle: {
         width: SCREEN_WIDTH * 0.09,
         height: SCREEN_HEIGHT * 0.045,
-        borderRadius: 6
+        borderRadius: 6,
+        // left: SCREEN_WIDTH * 0.13
 
     },
 

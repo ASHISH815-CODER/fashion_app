@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, FlatList, SafeAreaView, ScrollView } from "react-native"
 // import { Icon } from 'react-native-vector-icons/icon';
 import Icon from 'react-native-vector-icons/AntDesign';
+import { navigate } from '../../../RootNavigation';
+import { Header } from '../../Component/Header';
 // import { CustomTextInput } from '../../Component/CutomTextInput';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
@@ -17,7 +19,33 @@ export function FriendListScreen({ navigation }) {
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
+
+            <View >
+                <Header
+                    onIconPress={() => navigate('SearchFeedScreen')}
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Elle Fanning</Text>
+                    }
+                    ImageComponent={
+                        <Image style={styles.ProfileStyle}
+                            source={require('../../Assets/Images/ProfileImage/Profile.png')}>
+                        </Image>
+                    }
+                    IconComponent={
+                        <Icon
+                            // style={styles.SearchContainer}
+                            name="search1" color="#000000" size={18}
+                        />
+                    }
+                />
+
+            </View>
+
+
+            {/* <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Image style={styles.Imagestyle}
                         source={require('../../Assets/Images/BackImage/BackImage.png')}>
@@ -32,10 +60,11 @@ export function FriendListScreen({ navigation }) {
                     </TouchableOpacity>
                 </View>
 
-                <Icon style={styles.SearchImageContainer}
-                    name="search1" color="#000000" size={20} />
+                <Icon onPress={() => navigation.navigate('SearchFeedScreen')}
+                    style={styles.SearchImageContainer}
+                    name="search1" color="#000000" size={22} />
 
-            </View>
+            </View> */}
 
             <View style={styles.ButtonContainer}>
 
@@ -114,7 +143,9 @@ const styles = StyleSheet.create({
     ProfileStyle: {
         width: SCREEN_WIDTH * 0.09,
         height: SCREEN_HEIGHT * 0.045,
-        borderRadius: 6
+        borderRadius: 6,
+        marginLeft: SCREEN_WIDTH * 0.48,
+        right: 10
 
     },
     SearchImageContainer: {

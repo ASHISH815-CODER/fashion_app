@@ -8,6 +8,8 @@ import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 // import { GiftedChat } from 'react-native-gifted-chat'
 import { Avatar, Bubble, Composer, GiftedAvatar, GiftedChat, InputToolbar, Send, Message } from 'react-native-gifted-chat';
+import { ChatHeader } from '../../Component/ChatHeader';
+import { navigate } from '../../../RootNavigation';
 
 // class CustomMessage extends Message {
 //     renderAvatar() {
@@ -145,7 +147,38 @@ export function ChatScreen({ navigation }) {
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
+
+            <View >
+                <ChatHeader
+                    onIconPress={() => navigate('ChatSettingScreen')}
+                    currentObject={navigation}
+                    ImageComponent={
+                        <Image style={styles.ProfileStyle}
+                            source={require('../../Assets/Images/ProfileImage/Profile.png')}>
+                        </Image>
+                    }
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        
+                        }}>Tiana Gouse</Text>
+                    }
+
+                    IconComponent={
+                        <Ionicons onPress={() => SetFlag(!Flag)}
+                            style={styles.FlagIconStyle}
+                            name={Flag ? "flag" : "flag-outline"} color="#000000" size={25} />
+                    }
+
+                    SecondIcon={
+                        <Icon 
+                        style={styles.SearchImageContainer}
+                        name="infocirlceo" color="#000000" size={25} />
+                    }
+                />
+
+            </View>
+            {/* <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Image style={styles.Imagestyle}
                         source={require('../../Assets/Images/BackImage/BackImage.png')}>
@@ -165,15 +198,16 @@ export function ChatScreen({ navigation }) {
                     <Ionicons onPress={() => SetFlag(!Flag)}
                         style={styles.FlagIconStyle}
                         name={Flag ? "flag" : "flag-outline"} color="#000000" size={25} />
-                    <TouchableOpacity>
-                        <Icon style={styles.SearchImageContainer}
+                    <TouchableOpacity onPress={() => navigation.navigate('ChatSettingScreen')}>
+                        <Icon 
+                            style={styles.SearchImageContainer}
                             name="infocirlceo" color="#000000" size={25} />
                     </TouchableOpacity>
                 </View>
 
 
 
-            </View>
+            </View> */}
 
 
             <GiftedChat
@@ -254,7 +288,8 @@ const styles = StyleSheet.create({
     ProfileStyle: {
         width: SCREEN_WIDTH * 0.09,
         height: SCREEN_HEIGHT * 0.045,
-        // borderRadius: 6
+        left: SCREEN_WIDTH * 0.01,
+        borderRadius: 6
 
     },
     IconsContainer: {
@@ -262,10 +297,11 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
     },
     FlagIconStyle: {
+        // left: SCREEN_WIDTH * 0.08,
+
     },
     SearchImageContainer: {
-        left: SCREEN_WIDTH * 0.03,
-        // alignSelf: 'center'
+        left: SCREEN_WIDTH * 0.025,
     },
     ButtonContainer: {
         flexDirection: 'row',

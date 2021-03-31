@@ -6,7 +6,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import { CustomTextInput } from '../../Component/CutomTextInput';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
-
+import { Header } from '../../Component/Header';
+import { navigate } from '../../../RootNavigation';
 
 
 
@@ -32,6 +33,7 @@ const data = [
 
 
 ];
+
 
 
 const DATA = [
@@ -131,19 +133,40 @@ export function ProfileClosetScreen({ navigation }) {
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
+            <View >
+                <Header
+                    onIconPress={() => navigate('SearchScreen')}
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Back</Text>
+                    }
+                    IconComponent={
+                        <Icon
+                            // style={styles.SearchContainer}
+                            name="search" color="#000000" size={18}
+                        />
+                    }
+                />
+
+            </View>
+
+
+            {/* <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Image style={styles.Imagestyle}
                         source={require('../../Assets/Images/BackImage/BackImage.png')}>
                     </Image>
                 </TouchableOpacity>
                 <Text style={styles.BackTextStyle}>Back</Text>
-                <TouchableOpacity onPress={() => navigation.navigate('SearchScreen')}>
-                    <Icon onSubmitPress={() => navigation.navigate('SearchScreen')}
+                <TouchableOpacity onPress={() => navigate('SearchScreen')}>
+                    <Icon 
+                    // onSubmitPress={() => navigation.navigate('SearchScreen')}
                         style={styles.SearchContainer}
                         name="search" color="#000000" size={18} />
                 </TouchableOpacity>
-            </View>
+            </View>  */}
             <ScrollView>
                 <ImageBackground
                     style={styles.BackgroundImageContainer}
@@ -172,7 +195,7 @@ export function ProfileClosetScreen({ navigation }) {
                                 height: SCREEN_HEIGHT * 0.06,
                                 justifyContent: "center",
                                 alignItems: "center",
-                                marginTop: SCREEN_HEIGHT * 0.01,
+                                // marginTop: SCREEN_HEIGHT * 0.01,
                                 borderRadius: 5,
                             }}
                             buttonTitle="Follow" />
@@ -189,7 +212,7 @@ export function ProfileClosetScreen({ navigation }) {
                                 height: SCREEN_HEIGHT * 0.06,
                                 justifyContent: "center",
                                 alignItems: "center",
-                                marginTop: SCREEN_HEIGHT * 0.01,
+                                // marginTop: SCREEN_HEIGHT * 0.01,
                                 borderRadius: 5,
 
                             }}
@@ -280,7 +303,7 @@ const styles = StyleSheet.create({
     BackgroundImageContainer: {
         // flex: 1,
         // marginTop: SCREEN_HEIGHT * 0.04,
-        height: SCREEN_HEIGHT * 0.5,
+        height: SCREEN_HEIGHT * 0.47,
         width: SCREEN_WIDTH,
     },
     ContentContainer: {
@@ -296,7 +319,7 @@ const styles = StyleSheet.create({
     },
     Texingstyle: {
         fontFamily: 'montserrat_bold',
-        fontSize: 36,
+        fontSize: 30,
         // fontWeight: 'bold',
         color: '#fff',
         marginLeft: SCREEN_WIDTH * 0.022
@@ -313,7 +336,7 @@ const styles = StyleSheet.create({
     },
     MiracelContainer: {
         fontFamily: 'montserrat_light',
-        fontSize: 13,
+        fontSize: 12,
         // fontWeight: '200',
         color: '#fff',
         marginLeft: SCREEN_WIDTH * 0.022
@@ -325,7 +348,7 @@ const styles = StyleSheet.create({
     UpdateContainer: {
         flexDirection: 'row',
         backgroundColor: '#000000',
-        marginTop: SCREEN_HEIGHT * 0.03,
+        marginTop: SCREEN_HEIGHT * 0.02,
         padding: 12,
         width: SCREEN_WIDTH,
         justifyContent: 'space-between'

@@ -10,6 +10,7 @@ import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 import RangeSlider from 'rn-range-slider';
 import { Radio } from 'native-base';
 import Slider from "react-native-slider";
+import { Header } from '../../Component/Header';
 
 
 
@@ -85,14 +86,29 @@ export function UploadingPhotoScreen({ navigation }) {
     //     console.log(low, high)
     // }, []);
 
-
-
-
     return (
         <View style={styles.container}>
 
+            <View >
+                <Header
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Photos</Text>
+                    }
+                    ImageComponent={
+                        <Image style={styles.ProfileStyle}
+                            source={require('../../Assets/Images/ProfileImage/Profile.png')}>
+                        </Image>
+                    }
 
-            <View style={styles.ImageContainer}>
+                />
+
+            </View>
+
+
+            {/* <View style={styles.ImageContainer}>
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Entypo name="cross" size={35} color="#000000"
                         style={styles.ProfileImageStyle}>
@@ -106,11 +122,7 @@ export function UploadingPhotoScreen({ navigation }) {
                         </Image>
                     </TouchableOpacity>
                 </View>
-            </View>
-
-
-
-
+            </View> */}
 
             <SafeAreaView style={styles.Flatlistcontainer}>
                 <FlatList
@@ -255,7 +267,8 @@ export function UploadingPhotoScreen({ navigation }) {
                         height: SCREEN_HEIGHT * 0.07,
                         justifyContent: "center",
                         alignItems: "center",
-                        borderRadius: 5
+                        borderRadius: 5,
+                        elevation: 10,
                     }}
                     buttonTitle="Continue" />
             </ScrollView>
@@ -313,7 +326,8 @@ const styles = StyleSheet.create({
     FlatlistImagecontainer: {
         width: SCREEN_WIDTH * 0.2,
         height: SCREEN_HEIGHT * 0.1,
-        resizeMode: 'center'
+        resizeMode: 'center',
+        elevation: 10
     },
     TitleSizeContainer: {
         alignItems: 'flex-start',
@@ -337,6 +351,14 @@ const styles = StyleSheet.create({
         fontFamily: 'montserrat_medium',
         fontSize: 20,
         // marginLeft: SCREEN_WIDTH * 0.03
+    },
+    ProfileStyle: {
+        width: SCREEN_WIDTH * 0.09,
+        height: SCREEN_HEIGHT * 0.045,
+        borderRadius: 6,
+        marginLeft:SCREEN_WIDTH*0.6
+        
+
     },
     DetailsContainer: {
         flexDirection: 'row',

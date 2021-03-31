@@ -5,25 +5,29 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, FlatL
 // import { Icon } from 'react-native-vector-icons/icon';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { CustomTextInput } from '../../Component/CutomTextInput';
+import { Header } from '../../Component/Header';
 import { LoginButton } from '../../Component/LoginButton';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../Helper/DeviceDimensions';
 
 export function NameScreen({ navigation }) {
 
-  
+
 
     return (
         <View style={styles.container}>
 
-            <View style={styles.ImageContainer}>
-                <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Image style={styles.Imagestyle}
-                        source={require('../../Assets/Images/BackImage/BackImage.png')}>
-                    </Image>
-                </TouchableOpacity>
-                <Text style={styles.BackTextStyle}>Name</Text>
-            </View>
+            <View >
+                <Header
+                    currentObject={navigation}
+                    BackTextName={
+                        <Text style={{
+                            fontFamily: "montserrat_medium",
+                        }}>Name</Text>
+                    }
 
+                />
+
+            </View>
             <View style={styles.EmailContainer}>
                 <Text style={styles.EmailTextContainer}>First Name</Text>
             </View>
@@ -63,7 +67,9 @@ export function NameScreen({ navigation }) {
                         height: SCREEN_HEIGHT * 0.07,
                         justifyContent: "center",
                         alignItems: "center",
-                        borderRadius: 5
+                        borderRadius: 5,
+                        elevation: 10,
+
                     }}
                     buttonTitle="Save" />
             </View>

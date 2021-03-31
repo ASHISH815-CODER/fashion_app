@@ -70,17 +70,18 @@ export function LoginScreen({ navigation }) {
 
 
             <View style={{ flexDirection: 'row', alignItems: 'center', marginVertical: SCREEN_HEIGHT * 0.02 }}>
-                <View style={{ flex: 1, height: 1, backgroundColor: '#8C8C8C' }} />
+                <View style={{ width: SCREEN_WIDTH * 0.39, marginLeft: SCREEN_WIDTH * 0.055, height: 1, backgroundColor: '#8C8C8C' }} />
                 <View>
-                    <Text style={{ width: 50, textAlign: 'center' }}>OR</Text>
+                    <Text style={{ width: 50, textAlign: 'center', fontFamily: 'montserrat_bold' }}>OR</Text>
                 </View>
-                <View style={{ flex: 1, height: 1, backgroundColor: '#8C8C8C' }} />
+                <View style={{ width: SCREEN_WIDTH * 0.39, marginRight: SCREEN_WIDTH * 0.05, height: 1, backgroundColor: '#8C8C8C' }} />
             </View>
 
 
             <TouchableOpacity>
                 <View style={styles.GoogleContainer}>
-                    <Icon name="google" color="#000000" size={18} />
+                    <Image style={styles.GoogleImageStyle}
+                        source={require('../../Assets/Images/GoogleImage/GoogleImage.png')} />
                     <Text style={styles.GoogleTextingContainer}>Login With Google</Text>
                 </View>
             </TouchableOpacity>
@@ -112,10 +113,10 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     Imagestyle: {
-        width: SCREEN_WIDTH * 0.375,
-        height: SCREEN_HEIGHT * 0.14,
+        // width: SCREEN_WIDTH * 0.375,
+        // height: SCREEN_HEIGHT * 0.14,
         alignSelf: 'center',
-        marginTop: SCREEN_HEIGHT * 0.06
+        marginTop: SCREEN_HEIGHT * 0.04
 
     },
     TextStyle: {
@@ -130,7 +131,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         alignSelf: 'center',
         // fontWeight: 'bold',
-        marginTop: SCREEN_HEIGHT * 0.04
+        marginTop: SCREEN_HEIGHT * 0.06
     },
     TextInputContainer: {
         marginTop: SCREEN_HEIGHT * 0.03,
@@ -157,7 +158,7 @@ const styles = StyleSheet.create({
         fontFamily: 'montserrat_bold',
         fontSize: 15,
         // fontWeight: 'bold',
-        marginLeft: SCREEN_WIDTH * 0.2,
+        marginLeft: SCREEN_WIDTH * 0.15,
         color: '#8C8C8C'
     },
     FacebookContainer: {
@@ -176,7 +177,7 @@ const styles = StyleSheet.create({
         fontFamily: 'montserrat_bold',
 
         // fontWeight: 'bold',
-        marginLeft: SCREEN_WIDTH * 0.2,
+        marginLeft: SCREEN_WIDTH * 0.15,
         color: '#8C8C8C'
     },
     PasswordContainer: {
